@@ -1,0 +1,15 @@
+.trailer-wrapper {
+  position: absolute;
+  top: 60px; /* Adjust this if your navbar is taller */
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 60px); /* Takes full screen minus navbar */
+  z-index: 1000;
+  background-color: black;
+}
+
+.trailer-video {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
